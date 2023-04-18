@@ -6,39 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figma</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
     rel="stylesheet" 
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
     crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="/fontawesome/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/fontawesome/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    
+
 </head>
 <body>
 <header>
     <div class="top-header" >
         <div class="container d-flex justify-content-between align-items-center">
-            <div class="message text-white font-style-italic">
+            <div class="message text-white font-style-italic ">
                 <p> Urgent: Awesome Template for Charity & Non-profit Site</p>
             </div>
+            <div class="search">
+                <input type="text" class="input text-white" placeholder="Search...">
+                <button class="btn">
+                  <i class="fas fa-search"></i>
+                </button>
+            </div>
             <div class="socials d-flex align-items-center">
-                <div>
+                <a  href="https://www.facebook.com/">
                     <i class="fa-brands fa-facebook"></i>
-                </div>
-                <div>
+                </a>
+                <a href="https://twitter.com/">
                     <i class="fa-brands fa-twitter"></i>
-                </div>
-                <div>
+                </a>
+                <a href="https://www.instagram.com/">
                     <i class="fa-brands fa-instagram"></i>
-                </div>
-                <div>
+                </a>
+                <a href="https://www.youtube.com/">
                     <i class="fa-brands fa-youtube"></i>
-                </div>
-                 
+                </a>
             </div> 
         </div>
     </div>
-     <div class="header align-items-center justify-content-center">
+    <div class="header align-items-center justify-content-center">
             <div class="container flex-row d-flex align-items-center justify-content-between ">
                 <div class="logo">
                     <img src="images/logo.png" alt="">
@@ -63,71 +75,132 @@
                         </div>
                     </div>
                 </div>
-            <button class="btn btn-link text-white">DONATE NOW</button>
-            </div> 
-        </div>
-     <div class="bottom-header">
-        <div class="container align-items-center ">
-                <ul class="meniu d-flex align-items-center" >
-                    <il class=" d-flex">
-                        <a class=" nav-link text-white" href="#home">Home</a>
-                        <img class="plius"src="images/plus.svg" alt="">
-                    </il>
-                    <il class="d-flex align-items-center">
-                        <a class="nav-link text-white" href="#">About</a>
-                        <img class="plius"src="images/plus.svg" alt="">
-                    </il>
-                    <il class="d-flex">
-                        <a class="nav-link text-white" href="#">Causes</a>
-                        <img class="plius"src="images/plus.svg" alt="">
-                    </il>
-                    <il class="d-flex">
-                        <a class="nav-link text-white" href="#">Pages</a>
-                        <img class="plius"src="images/plus.svg" alt="">
-                    </il>
-                    <il class="d-flex">
-                        <a class="nav-link text-white" href="#">Events</a>
-                        <img class="plius"src="images/plus.svg" alt="">
-                    </il>
-                    <il class="d-flex">
-                        <a class="nav-link text-white" href="#">Contacts</a>
-                    </il>
-                </ul>
-        </div>
-</header>
-<div  class="carousel" data-ride="carousel">
-    <div class="container d-flex justify-content-center align-items-center">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-content  active">
-              <h1 class="text-white"><span>#EndViolence</span> For Every Woman</h1>
-              <p >Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <button class="btn btn-link text-white">DONATE NOW</button>
-            </div>
-            <div class="carousel-content">
-              <img class="d-block w-100" src="..." alt="Second slide">
-            </div>
-            <div class="carousel-content">
-              <img class="d-block w-100" src="..." alt="Third slide">
-            </div>
-          </div>
-          <a class="carousel-control-prev " href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+          <button class="donate btn-link text-white">DONATE NOW</button>
+        </div> 
     </div>
+     <div class="bottom-header ">
+        <div class="container d-flex ">
+            <nav>
+                <div class="menu-icons ">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <ul class = "nav-bar d-flex">
+                    <li class="nav d-flex gap-2 justify-content-center align-items-center">
+                        <a href="" class = "Home">Home</a>
+                        <i class="fa-solid fa-plus"></i>
+                        <ul class="sub-meniu">
+                            <li>
+                                <a href="">Home1</a>
+                            </li>
+                            <li>
+                                <a href="">Home2</a>
+                            </li>
+                            <li>
+                                <a href="">Home3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li  class="d-flex gap-2 justify-content-center align-items-center">
+                        <a href="" class = "About">About</a>
+                        <i class="fa-solid fa-plus"></i>
+                        <ul class="sub-meniu">
+                            <li>
+                                <a href="">About1</a>
+                            </li>
+                            <li>
+                                <a href="">About2</a>
+                            </li>
+                            <li>
+                                <a href="">About3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="d-flex gap-2 justify-content-center align-items-center">
+                        <a href="" class = "Causes">Causes</a>
+                        <i class="fa-solid fa-plus"></i>
+                        <ul class="sub-meniu">
+                            <li>
+                                <a href="">Causes1</a>
+                            </li>
+                            <li>
+                                <a href="">Causes2</a>
+                            </li>
+                            <li>
+                                <a href="">Causes3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="d-flex gap-2 justify-content-center align-items-center">
+                        <a href="" class = "Pages">Pages</a>
+                        <i class="fa-solid fa-plus"></i>
+                        <ul class="sub-meniu">
+                            <li>
+                                <a href="">Page1</a>
+                            </li>
+                            <li>
+                                <a href="">Page2</a>
+                            </li>
+                            <li>
+                                <a href="">Page3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="d-flex gap-2 justify-content-center align-items-center">
+                        <a href="" class="Events">Events</a>
+                        <i class="fa-solid fa-plus"></i>
+                        <ul class="sub-meniu">
+                            <li>
+                                <a href="">Events1</a>
+                            </li>
+                            <li>
+                                <a href="">Events2</a>
+                            </li>
+                            <li>
+                                <a href="">Events3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="d-flex justify-content-center align-items-center">
+                        <a href="" class="Contacts">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+     </div>
+</header>
+
+<div class="wrap">
+    <div class="container">
+             <div id="slider">
+                 <div class="slide slide1">
+                     <div class="slide-content">
+                          <h1 class="text-white"><span>#EndViolence</span> For Every Woman</h1>
+                          <p >Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <button class="btn btn-link text-white">DONATE NOW</button>
+                      </div>
+                 </div>
+                 <div class="slide slide2">
+                    <div class="slide-content">
+                         <h1 class="text-white"><span>#EndViolence</span> For Every Man</h1>
+                         <p >Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                       <button class="btn btn-link text-white">DONATE NOW</button>
+                     </div>
+                </div>
+                <div class="slide slide3">
+                    <div class="slide-content">
+                         <h1 class="text-white"><span>#EndViolence</span> For Every Child</h1>
+                         <p >Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                       <button class="btn btn-link text-white">DONATE NOW</button>
+                     </div>
+                </div>
+             </div>
+        </div>
+        <i id="arrow-right" class="fa-solid fa-chevron-right"></i>
+        <i id="arrow-left" class="fa-solid fa-chevron-left"></i>
 </div>
 
-  <div class="hero m-auto d-flex align-items-center">
-    <div class="container align-items-center">
+<div class="hero  d-flex align-items-center">
+    <div class="container  align-items-center">
         <div class="content d-flex flex-column align-items-center justify-content-between gap-4">
             <h1>We <span>Need</span> Your Help</h1>
             <div class="line1"></div>
@@ -185,6 +258,7 @@
    </div>
 </div>
 
+
 <div class="hero2 d-flex justify-content-center align-items-center">
     <div class="hero-container" >
         <div class="container d-flex  justify-content-between gap-4">
@@ -209,7 +283,6 @@
         </div>
      </div>
 </div>
-
 <div class="banner-top">
     <div class="container">
         <div class="image-container">
@@ -258,7 +331,6 @@
         </div>
     </div>
 </div>
-
 <div class="map">
     <div class="conteiner d-flex justify-content-center align-items-center">
         <div class="map-content d-flex justify-content-center">
@@ -279,7 +351,6 @@
         </div>
     </div>
 </div>
-
 <section>
     <div class="Our-volunteers-say d-flex align-items-center ">
         <div class="container align-items-center">
@@ -371,8 +442,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            
+            </div>       
         </div>
     </div>
 </section>
@@ -595,13 +665,8 @@
 
 
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
-integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
-crossorigin="anonymous">
-</script>
-<script src="https://kit.fontawesome.com/9c624af873.js" crossorigin="anonymous">
-</script>
+<script src= "js/script.js"></script>
+     
+     
 </body>
 </html>
